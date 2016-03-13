@@ -1,0 +1,34 @@
+{
+  "name": "just-gif-it",
+  "version": "1.0.0",
+  "description": "Just Gif It",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dustin Schultz",
+  "dependencies": {
+    "angular": "^1.4.9",
+    "angular-loading-bar": "^0.8.0",
+    "angular-ui-router": "^0.2.18",
+    "bootstrap": "^3.3.6",
+    "ng-file-upload": "^11.2.3"
+  },
+  "devDependencies": {
+    "babel": "^6.3.26",
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "html-webpack-plugin": "^2.8.1",
+    "ng-annotate-loader": "^0.1.0",
+    "ng-file-upload": "^11.2.3",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.12",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

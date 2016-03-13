@@ -1,0 +1,24 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.drop-box {
+  background: #F8F8F8;
+  border: 5px dashed #DDD;
+  height: 75px;
+  text-align: center;
+  padding-top: 25px;
+  margin: 10px;
+}
+.dragover {
+  border: 5px dashed blue;
+}
+
+.mt-1-em {
+  margin-top: 1em;
+}
+
+video {
+  background-color: black;
+}

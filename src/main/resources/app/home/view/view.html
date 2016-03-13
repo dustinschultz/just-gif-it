@@ -1,0 +1,33 @@
+<form class="text-center">
+    <div class="form-inline row mt-1-em">
+        <div class="form-group">
+            <label class="sr-only" for="startSecond">Start</label>
+            <input type="text" class="form-control" id="startSecond" data-ng-model="view.start" placeholder="start"/>
+        </div>
+        <div class="form-group">
+            <label class="sr-only" for="endSecond">End</label>
+            <input type="text" class="form-control" id="endSecond" data-ng-model="view.end" placeholder="end"/>
+        </div>
+        <div class="form-group ">
+            <label class="sr-only" for="speed">Speed</label>
+            <input type="text" class="form-control" id="speed" data-ng-model="view.speed" placeholder="speed"/>
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" id="repeat" data-ng-model="view.repeat"/> Repeat
+            </label>
+        </div>
+    </div>
+    <div class="row mt-1-em">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <div align="center" class="embed-responsive embed-responsive-4by3">
+                <video autoplay loop controls muted class="embed-responsive-item" ngf-src="view.file"></video>
+            </div>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+    <div class="row mt-1-em">
+        <button type="submit" class="btn btn-success" data-ng-click="view.submit()">Just Gif It!</button>
+    </div>
+</form>
